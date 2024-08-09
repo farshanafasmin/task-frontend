@@ -1,0 +1,119 @@
+
+
+.navbar-brand {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.links {
+  background-color: blueviolet;
+  border-radius: 10px;
+  width: 100px;
+}
+
+span {
+  color: blue;
+}
+
+.bg {
+  background-color: rgb(168, 132, 235);
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+}
+
+.bg1{
+  background-color:  rgb(176, 163, 199);
+  height: 100vh; 
+
+}
+
+.image-container img {
+  width: 900px;
+  height: auto;
+  opacity: 0.9;
+  margin-top: 50px;
+}
+
+.title {
+  font-size: 30px;
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: 500; 
+  font-style: italic;
+}
+
+h1 {
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: 500; 
+ text-align: center;
+  color: rgb(70, 70, 125);
+  font-size: 35px;
+  margin-top: 240px;
+}
+
+h2 {
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: 500; 
+ text-align: center;
+  color: rgb(70, 70, 125);
+  font-size: 35px;
+}
+
+.btn1{
+  background-color: rgb(54, 28, 78);
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 250px;
+}
+
+.btn{
+  background-color: rgb(54, 28, 78);
+  border-radius: 10px;
+  color: white;
+
+}
+
+.auth1{
+  background-color:  rgb(176, 163, 199);
+height: 100vh; 
+}
+
+.sidemenu{
+  background-color: rgb(154, 149, 159);
+  height: 90vh;
+}
+
+.sidemenu .list-group-item {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.stask{
+  background-color:  rgb(176, 163, 199);
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 10px;
+    margin-top: 50px;
+  }
+
+  .btn{
+    margin-left: 0px;
+  }
+
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+
+
+}
